@@ -2,6 +2,7 @@
 *.rbc
 .rbenv-gemsets
 .ruby-version
+Gemfile.lock
 /.config
 /coverage/
 /InstalledFiles
