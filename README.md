@@ -14,3 +14,19 @@ require 'selenium-webdriver'
 
 Capybara.default_driver = :selenium_chrome_headless
 ```
+
+Create a new file named Rakefile, and add the following:
+```
+require 'rubygems'
+require 'cucumber'
+require 'cucumber/rake/task'
+
+Cucumber::Rake::Task.new(:features) do |t|
+  t.cucumber_opts = "--format pretty" # Any valid command line option can go here.
+end
+```
+
+to run tests use the command
+
+
+* `rake features`
