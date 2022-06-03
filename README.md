@@ -6,6 +6,7 @@ A simplified automation project to exemplify automation
 * `cucumber --init`
 
 Automation drivers for your browser and os are also required. On Mac they can be installed with homebrew:
+
 `brew install chromedriver geckodriver`
 
 In the generated env.rb file, add the following:
