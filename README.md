@@ -1,6 +1,8 @@
 # simple_automation
 A simplified automation project to exemplify automation
 
+# Setup
+
 * `gem install bundler`
 * `bundle install`
 * `cucumber --init`
@@ -36,7 +38,8 @@ Cucumber::Rake::Task.new(:features) do |t|
 end
 ```
 
-*Writing Test Cases*
+# Writing Test Cases
+
 Create a new file in _features_ directory with the file extension `.feature` and add the following template:
 ```
 Feature: Your feature
@@ -46,10 +49,10 @@ When test actions
 Then test outcome
 ```
 
-*Automating Test Cases*
+# Automating Test Cases
 Create a new file in _features/step_definitions_ directory with the file extension `.rb`. Running tests without defined step code will provide a template for each method you need to define.
 https://rubydoc.info/github/jnicklas/capybara is a good reference for how to define steps.
 
-*Running Test Cases*
+# Running Test Cases
 To run tests use terminal to run the command:
 * `rake features`
